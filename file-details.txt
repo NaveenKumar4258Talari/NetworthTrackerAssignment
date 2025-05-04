@@ -1,0 +1,26 @@
+/credikhaata
+├── config/
+│   └── db.js            → MongoDB connection
+├── controllers/
+│   ├── authController.js
+│   ├── customerController.js
+│   ├── loanController.js
+│   └── repaymentController.js
+├── middleware/
+│   ├── authMiddleware.js → JWT check
+│   └── errorHandler.js
+├── models/
+│   ├── User.js
+│   ├── Customer.js
+│   ├── Loan.js
+│   └── Repayment.js
+├── routes/
+│   ├── authRoutes.js
+│   ├── customerRoutes.js
+│   ├── loanRoutes.js
+│   └── repaymentRoutes.js
+├── utils/
+│   └── alerts.js → overdue tagging, reminders
+├── .env
+├── app.js
+└── package.json
